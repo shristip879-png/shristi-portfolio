@@ -7,7 +7,7 @@ export function Home() {
       }}
     >
       <img
-        src="src/assets/profile.jpeg"
+        src="C:\Users\Shristi\Downloads\profile.jpeg"
         alt="profile"
         style={{
           width: "220px",
