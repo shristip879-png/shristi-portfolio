@@ -1,13 +1,11 @@
+import profilePic from "../assets/profile.jpeg"; 
+// adjust path if Home.jsx is inside src/components
+
 export function Home() {
   return (
-    <div
-      style={{
-        textAlign: "center",
-        padding: "80px 20px",
-      }}
-    >
+    <div style={{ textAlign: "center", padding: "80px 20px" }}>
       <img
-        src="src/assets/profile.jpeg"
+        src={profilePic}
         alt="profile"
         style={{
           width: "220px",
@@ -17,20 +15,11 @@ export function Home() {
         }}
       />
       <h1 style={{ fontSize: "55px" }}>Shristi Pandey</h1>
-
       <h2>Electronics Engineering Student</h2>
-
-      <p
-        style={{
-          maxWidth: "700px",
-          margin: "auto",
-          fontSize: "18px",
-        }}
-      >
-        Passionate about Web Development, React Applications and
-        creating beautiful digital experiences.
+      <p style={{ maxWidth: "700px", margin: "auto", fontSize: "18px" }}>
+        Passionate about Web Development, React Applications and creating
+        beautiful digital experiences.
       </p>
-
       <button
         style={{
           marginTop: "20px",
@@ -49,3 +38,4 @@ export function Home() {
 }
 
 export default Home;
+
