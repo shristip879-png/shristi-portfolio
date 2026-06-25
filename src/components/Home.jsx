@@ -7,7 +7,7 @@ export function Home() {
       }}
     >
       <img
-        src="src/assets/profile.jpeg"
+        src="https://github.com/shristip879-png/shristi-portfolio/blob/main/src/assets/profile.jpeg"
         alt="profile"
         style={{
           width: "220px",
