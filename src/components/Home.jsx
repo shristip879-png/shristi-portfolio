@@ -7,16 +7,15 @@ export function Home() {
       }}
     >
       <img
-  src={profile}
-  alt="profile"
-  style={{
-    width: "220px",
-    height: "220px",
-    borderRadius: "50%",
-    border: "5px solid white",
-    objectFit: "cover",
-  }}
-/>
+        src="src/assets/profile.jpeg"
+        alt="profile"
+        style={{
+          width: "220px",
+          height: "220px",
+          borderRadius: "50%",
+          border: "5px solid white",
+        }}
+      />
       <h1 style={{ fontSize: "55px" }}>Shristi Pandey</h1>
 
       <h2>Electronics Engineering Student</h2>
